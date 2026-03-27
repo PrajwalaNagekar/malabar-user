@@ -145,17 +145,6 @@ const IntroScreen = ({ onComplete }) => {
 
   return (
     <div className="h-full w-full bg-transparent relative flex flex-col items-center justify-center text-center text-[#F8F4EE]">
-      {/* Background Image Layer */}
-      <div 
-        className="absolute inset-0 opacity-15"
-        style={{
-          backgroundImage: "url('https://yt3.googleusercontent.com/yuE_zX5P82SJFcMYfWTLOO9jWMBCdMGq1hzyF9ELBR76_BiTw49ytdo6grCubPmoF5hDw_3Lmw=s900-c-k-c0x00ffffff-no-rj')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          mixBlendMode: 'multiply'
-        }}
-      />
-      
       {/* Skip Button */}
       <div className="absolute top-16 right-6 z-20">
         <button 
